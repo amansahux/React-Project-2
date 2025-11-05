@@ -1,0 +1,26 @@
+@import "tailwindcss";
+*{
+    font-family:  "Poppins" , sans-serif;
+    
+}
+.Reviews::-webkit-scrollbar{
+  display: none;
+}
+
+
+/* .range-1280-1390 {
+  @apply h-[37rem] w-[37rem];
+} */
+/* .range-300-600{
+@apply  h-[80vw] w-[80vw];
+} */
+
+/* @media (1280px <= width <= 1390px) {
+  .range-1280-1390 {
+    @apply h-[37rem] w-[37rem];
+  }
+} */
+
+/* @media (300px <= width <= 600px){
+    @apply  h-[80vw] w-[80vw];
+}  */
