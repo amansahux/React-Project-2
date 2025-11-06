@@ -24,8 +24,8 @@ const Section3 = () => {
         </div>
       </div>
       <div className="Right"> 
-        <div className="Image_Box bg-[#FFC247] h-[30.12694rem] w-[30.12694rem] flex justify-center items-center">
-            <img src={GirlImg} alt="" className="h-[97%] w[96%] -translate-3 translate-y-[0.5px]" />
+        <div className="Image_Box bg-[#FFC247] h-[22.12694rem] w-[22.12694rem] sm:h-[30.12694rem] sm:w-[30.12694rem] flex justify-center items-center">
+            <img src={GirlImg} alt="" className="h-[97%] w[96%] -translate-3 translate-y-[0.5px] object-cover object-center" />
         </div>
       </div>
     </section>
