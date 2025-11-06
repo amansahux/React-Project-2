@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/Logo.svg";
 import { ChevronDown, Menu, X } from "lucide-react";
+import HelpCenterBtn from "./HelpCenterBtn";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -85,6 +86,7 @@ const Navbar = () => {
         >
           Sign in
         </button>
+       <div className="absolute bottom-5 right-5"> <HelpCenterBtn/></div>
       </div>
     </>
   );
