@@ -6,16 +6,21 @@ import IphoneBtn from "./IphoneBtn";
 
 const Section7 = () => {
   return (
-    <section className="Section7  text-[#02033B]  px-10 md:px-10 lg:px-20 lg:px-[12rem] lg:py-[5.25rem] py-20 bg-[#F3F8FF]">
-      <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] whitespace-nowrap font-extrabold text-center my-10">
+    <section
+      className="Section7 bg-[#F3F8FF] text-[#02033B] py-20
+      px-10 md:px-10 lg:px-[12rem]"
+    >
+      <h1 className="text-[2.5rem] sm:text-[3rem] md:text-[3.5rem] font-extrabold text-center my-10 whitespace-nowrap">
         Latest insights
       </h1>
+
       <div className="w-full px-4 py-10">
-        <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2 xl:grid-cols-3 ">
+        <div className="max-w-6xl mx-auto grid gap-10 md:grid-cols-2 xl:grid-cols-3">
+          
           {/* CARD 1 */}
-          <div className="bg-white rounded-[48px] overflow-hidden shadow-md hover:shadow-lg transition max-w-[20rem] justify-self-center">
+          <div className="bg-white rounded-[48px] overflow-hidden shadow-md hover:shadow-lg transition max-w-[20rem] justify-self-center hover:-translate-y-3 hover:scale-[1.03] cursor-pointer">
             <div className="relative">
-              <img src={CardImage} className="w-full h-48 object-cover" />
+              <img src={CardImage} className="w-full h-48 object-cover" alt="Insight 1" />
               <span className="absolute top-4 left-4 px-5 py-2 bg-sky-50 rounded-full text-slate-900 text-sm font-bold">
                 Expertise
               </span>
@@ -34,9 +39,9 @@ const Section7 = () => {
           </div>
 
           {/* CARD 2 */}
-          <div className="bg-white rounded-[48px] overflow-hidden shadow-md hover:shadow-lg transition max-w-[20rem]  justify-self-center">
+          <div className="bg-white rounded-[48px] overflow-hidden shadow-md hover:shadow-lg transition max-w-[20rem] justify-self-center hover:-translate-y-3 hover:scale-[1.03] cursor-pointer">
             <div className="relative">
-              <img src={CardImage2} className="w-full h-48 object-cover" />
+              <img src={CardImage2} className="w-full h-48 object-cover" alt="Insight 2" />
               <span className="absolute top-4 left-4 px-5 py-2 bg-sky-50 rounded-full text-slate-900 text-sm font-bold">
                 Guides
               </span>
@@ -47,17 +52,16 @@ const Section7 = () => {
                 How to Remove a Hacker from Your Samsung Phone
               </h3>
               <p className="text-gray-700 text-sm">
-                Samsung is the second most popular manufacturer of smartphones
-                in the world, with a market share of 28.19% compared to Apple’s
-                28.43% as...
+                Samsung is the second most popular smartphone brand worldwide,
+                making it a prime target for hackers…
               </p>
             </div>
           </div>
 
           {/* CARD 3 */}
-          <div className="bg-white rounded-[48px] overflow-hidden shadow-md hover:shadow-lg transition max-w-[20rem] justify-self-center">
+          <div className="bg-white rounded-[48px] overflow-hidden shadow-md hover:shadow-lg transition max-w-[20rem] justify-self-center hover:-translate-y-3 hover:scale-[1.03] cursor-pointer">
             <div className="relative">
-              <img src={CardImage3} className="w-full h-48 object-cover" />
+              <img src={CardImage3} className="w-full h-48 object-cover" alt="Insight 3" />
               <span className="absolute top-4 left-4 px-5 py-2 bg-sky-50 rounded-full text-slate-900 text-sm font-bold">
                 Expertise
               </span>
@@ -68,16 +72,17 @@ const Section7 = () => {
                 Is Your Cell Phone Under Surveillance?
               </h3>
               <p className="text-gray-700 text-sm">
-                In today’s surveillance state, it can feel like your every move
-                is being watched. Although your mind may be conjuring up images
-                of CCTV...
+                In today’s surveillance age, your every move may feel tracked.
+                But are your fears justified?...
               </p>
             </div>
           </div>
+
         </div>
       </div>
-      <div className="btn flex justify-center items-center mt-16">
-        <IphoneBtn label={'View all insights'}/>
+
+      <div className="btn flex justify-center mt-16">
+        <IphoneBtn label="View all insights" />
       </div>
     </section>
   );

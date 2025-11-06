@@ -2,6 +2,7 @@
 import Twitter from '../assets/Twitter.svg'
 import Facebook from '../assets/Facebook.svg'
 import Yt from '../assets/Yt.svg'
+import FootLogo from '../assets/certo-dark-yellow.svg'
 import React from "react";
 // import FootLogo from 'certo-dark-yellow.svg'
 
@@ -17,7 +18,7 @@ const Footer = () => {
             <div className="flex items-center gap-4">
              <a href="" className='hover:bg-blue-800'> <img src={Twitter} alt="" /></a>
             <a href="" className='hover:bg-blue-600'>  <img src={Facebook} alt="" /></a>
-             <a href="" className='hover:bg-red-600'> <img src={Yt} alt="" /></a>
+             <a href="linkedin.com/in/aman-sahu-a6032a36b" target='_blank' className='hover:bg-red-600 over'> <img src={Yt} alt="" /></a>
             </div>
 
             <div className="flex flex-wrap items-center gap-4 text-sm underline opacity-90">
@@ -32,7 +33,7 @@ const Footer = () => {
 
             <p className="text-xs opacity-90">
               Designed & developed by{" "}
-              <span className="underline">Bigger Picture</span>
+             <a href="www.linkedin.com/in/aman-sahu-a6032a36b" target='_blank '> <span className="underline hover:scale-1.10 hover:text-amber-300">Aman Sahu X</span></a>
             </p>
           </div>
 
@@ -60,7 +61,8 @@ const Footer = () => {
           </div>
 
           {/* RIGHT */}
-          <div className="bg-amber-300 p-8 rounded-3xl text-slate-900 space-y-6 ">
+          <div className="bg-[#FFC247] p-8 rounded-3xl text-slate-900 space-y-6 relative ">
+       
             <h3 className="text-2xl font-extrabold">
               Sign up to our newsletter
             </h3>

@@ -86,7 +86,7 @@ const Navbar = () => {
         >
           Sign in
         </button>
-       <div className="absolute bottom-5 right-5"> <HelpCenterBtn/></div>
+       <div className="absolute bottom-5 left-5"> <HelpCenterBtn/></div>
       </div>
     </>
   );
