@@ -48,7 +48,7 @@ const Section4 = () => {
           ))}
 
           <div className="Buttons hidden md:flex flex-col md:flex-row gap-5 mt-10">
-            <IphoneBtn />
+            <IphoneBtn label={'Get Certo for iPhone'} />
             <AndroidBtn />
           </div>
         </div>

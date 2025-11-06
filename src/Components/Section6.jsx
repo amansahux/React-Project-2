@@ -10,7 +10,7 @@ const Section6 = () => {
 '>Is someone spying on your phone?</h2>
         <h6>Find out with Certo</h6>
         <div className="buttons flex flex-col justify-center items-center gap-6 md:flex-row">
-            <IphoneBtn/>
+            <IphoneBtn label={'Get Certo for iPhone'}/>
             <AndroidBtn className="border-white text-white hover:bg-white hover:text-[#02033B]"/>
         </div>
         

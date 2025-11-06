@@ -19,7 +19,7 @@ const Section3 = () => {
         </div>
 
         <div className="Buttons flex flex-col md:flex-row gap-5">
-          <IphoneBtn />
+          <IphoneBtn label={'Get Certo for iPhone'} />
           <AndroidBtn />
         </div>
       </div>

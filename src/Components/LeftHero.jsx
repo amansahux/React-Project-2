@@ -15,7 +15,7 @@ const LeftHero = () => {
             </p>
           </div>
           <div className="Hero_Btn flex flex-col gap-3 md:gap-4 lg:gap-5 sm:flex-row items-center justify-center xl:justify-start">
-            <IphoneBtn />
+            <IphoneBtn label={'Get Certo for iPhone'} />
             <AndroidBtn />
           </div>
         </div>

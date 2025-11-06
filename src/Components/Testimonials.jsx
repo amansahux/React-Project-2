@@ -17,7 +17,7 @@ const Testimonials = () => {
         Loved by thousands of iPhone and Android users alike
       </h1>
 
-      <div className="Reviews flex items-center justify-center sm:justify-start  overflow-x-auto mx-2">
+      <div className="Reviews flex items-center justify-center sm:justify-start   overflow-x-auto mx-auto ">
         {ReviewData.map((elem, idx) => {
           return (
             <div key={idx} className="flex w-[350px] h-[350px] p-[2rem] flex-col justify-center items-center md:justify-start md:items-start gap-[1.5rem] rounded-[3rem] shrink-0  bg-white box-shadow: 12px 12px 20px 0 rgba(0, 0, 0, 0.10) mx-10">
