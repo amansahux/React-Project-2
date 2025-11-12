@@ -6,7 +6,7 @@ import FinantialTiming from "../assets/FinantialTiming.svg";
 import Reader from "../assets/Reader.svg";
 import Wired from "../assets/Wired.svg";
 import ZdNet from "../assets/ZdNet.svg";
-import { ReviewDataContext } from "./ReviewCOntext";
+import { ReviewDataContext } from "./ReviewContext";
 
 const Testimonials = () => {
   const { ReviewData } = useContext(ReviewDataContext);
